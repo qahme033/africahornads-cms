@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"start": "directus start"
-
+    "start": "directus start"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +13,8 @@
   "dependencies": {
     "directus": "^9.21.0",
     "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14"
   }
 }
